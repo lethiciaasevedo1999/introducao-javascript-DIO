@@ -1,4 +1,12 @@
-function soma (n1, n2){
+function clicou(){
+    document.getElementById("agradecimeto").innerHTML = "Obrigado por clicar";
+    //console.log(document.getElementById("agradecimeto"));
+   // alert("Obrigado por clicar");
+}
+
+
+
+/*function soma (n1, n2){
     return n1 + n2;
 }
 
@@ -15,7 +23,7 @@ function validaIdade (idade){
 }
 
 var idade = prompt ("Qual a sua idade ?");
-console.log (validaIdade(idade));
+console.log (validaIdade(idade));*/
 
 
 //alert (soma(5, 10));
